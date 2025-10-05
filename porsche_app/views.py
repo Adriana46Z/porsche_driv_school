@@ -112,7 +112,7 @@ def quiz_view(request):
         'form': form,
         'questions': questions,
         'total_questions': len(questions),
-        'message': "200OK"
+        #'message': "200OK"
     })
 
 
