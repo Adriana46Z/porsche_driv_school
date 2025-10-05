@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="card text-center">
+    <div class="card-header bg-{% if percentage >= 70 %}success{% else %}warning{% endif %} text-white">
+        <h2>🎉 Rezultat Chestionar</h2>
+    </div>
+    <div class="card-body">
+        <div class="display-1 {% if percentage >= 70 %}text-success{% else %}text-warning{% endif %}">
+            {{ score }}/{{ total_questions }}
+        </div>
+        
+        <div class="progress mb-4" style="height: 30px;">
+            <div class="progress-bar {% if percentage >= 70 %}bg-success{% else %}bg-warning{% endif %}" 
+                 role="progressbar" 
+                 style="width: {{ percentage }}%"
+                 aria-valuenow="{{ percentage }}" 
+                 aria-valuemin="0" 
+                 aria-valuemax="100">
+                {{ percentage|floatformat:1 }}%
+            </div>
+        </div>
+        
+        <h4 class="mb-3">
+            {% if percentage >= 90 %}
+            🏆 Excelent! Ești un adevărat expert Porsche!
+            {% elif percentage >= 70 %}
+            ✅ Foarte bine! Ai cunoștințe solide!
+            {% elif percentage >= 50 %}
+            📚 Bine, dar mai poți exersa!
+            {% else %}
+            📖 Continuă să înveți! Poți face mai mult!
+            {% endif %}
+        </h4>
+        
+        <p class="text-muted mb-4">
+    Chestionar complet • {{ total_questions }} întrebări • Toate categoriile
+</p>
+        
+        <div class="d-grid gap-2 d-md-block">
+            <a href="{% url 'quiz' %}?category={{ category }}" class="btn btn-porsche btn-lg">Mai încearcă odată</a>
+            <a href="{% url 'quiz_history' %}" class="btn btn-outline-secondary btn-lg">Vezi istoric</a>
+            <a href="{% url 'home' %}" class="btn btn-outline-primary btn-lg">Acasă</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

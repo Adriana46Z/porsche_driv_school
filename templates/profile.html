@@ -1,0 +1,101 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header bg-porsche text-white">
+                <h3>👤 Profil Utilizator</h3>
+            </div>
+            <div class="card-body text-center">
+                <div class="mb-3">
+                    <h4>{{ user.first_name }} {{ user.last_name }}</h4>
+                    <p class="text-muted">@{{ user.username }}</p>
+                </div>
+                <div class="mb-3">
+                    <p><strong>Email:</strong><br>{{ user.email }}</p>
+                </div>
+                <div class="mb-3">
+                    <p><strong>Membru din:</strong><br>{{ user.date_joined|date:"d.m.Y" }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-8">
+        <!-- Statistici -->
+        <div class="card mb-4">
+            <div class="card-header">
+                <h3>📈 Statistici Porsche School</h3>
+            </div>
+            <div class="card-body">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <div class="border rounded p-3">
+                            <h2 class="text-primary">{{ total_quizzes }}</h2>
+                            <p class="mb-0">Chestionare completate</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="border rounded p-3">
+                            <h2 class="text-success">{{ average_score|floatformat:1 }}</h2>
+                            <p class="mb-0">Scor mediu</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="border rounded p-3">
+                            <h2 class="text-warning">
+                                {% if best_attempt %}{{ best_attempt.score }}/{{ best_attempt.total_questions }}{% else %}0/0{% endif %}
+                            </h2>
+                            <p class="mb-0">Cel mai bun scor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-4">
+    <form method="post" action="{% url 'logout' %}">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-outline-danger">
+            <i class="fas fa-sign-out-alt me-2"></i>Logout
+        </button>
+    </form>
+</div>
+        
+        <!-- Ultimele încercări -->
+        <div class="card">
+            <div class="card-header">
+                <h3>📋 Ultimele Chestionare</h3>
+            </div>
+            <div class="card-body">
+                {% if user_attempts %}
+                <div class="list-group">
+                    {% for attempt in user_attempts %}
+                    <div class="list-group-item">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h6 class="mb-1">
+                                {% if attempt.category == 'all' %}Toate Categoriile
+                                {% elif attempt.category == 'traffic' %}Legislație Trafic
+                                {% elif attempt.category == 'signs' %}Indicații Rutiere
+                                {% elif attempt.category == 'safety' %}Siguranță Rutieră
+                                {% elif attempt.category == 'porsche' %}Cunoștințe Porsche
+                                {% else %}{{ attempt.category }}{% endif %}
+                            </h6>
+                            <small>{{ attempt.completed_at|date:"d.m.Y" }}</small>
+                        </div>
+                        <p class="mb-1">Scor: {{ attempt.score }}/{{ attempt.total_questions }}</p>
+                        <small class="text-muted">
+                            Procentaj: {% widthratio attempt.score attempt.total_questions 100 %}%
+                        </small>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% else %}
+                <p class="text-muted text-center">Nu ai completat niciun chestionar încă.</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

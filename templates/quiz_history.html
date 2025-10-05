@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="card">
+    <div class="card-header bg-info text-white">
+        <h2>📊 Istoric Chestionare</h2>
+    </div>
+    <div class="card-body">
+        {% if attempts %}
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Categorie</th>
+                        <th>Scor</th>
+                        <th>Procentaj</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for attempt in attempts %}
+                    <tr>
+                        <td>{{ attempt.completed_at|date:"d.m.Y H:i" }}</td>
+                        <td>
+                            {% if attempt.category == 'all' %}Toate
+                            {% elif attempt.category == 'traffic' %}Trafic
+                            {% elif attempt.category == 'signs' %}Indicații
+                            {% elif attempt.category == 'safety' %}Siguranță
+                            {% elif attempt.category == 'porsche' %}Porsche
+                            {% else %}{{ attempt.category }}{% endif %}
+                        </td>
+                        <td><strong>{{ attempt.score }}/{{ attempt.total_questions }}</strong></td>
+                        <td>
+                            {% widthratio attempt.score attempt.total_questions 100 %}%
+                        </td>
+                        <td>
+                            {% widthratio attempt.score attempt.total_questions 100 as percentage %}
+                            <span class="badge bg-{% if percentage >= 70 %}success{% elif percentage >= 50 %}warning{% else %}danger{% endif %}">
+                                {% if percentage >= 70 %}Trecut
+                                {% elif percentage >= 50 %}Mediu
+                                {% else %}Respins
+                                {% endif %}
+                            </span>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        {% else %}
+        <div class="text-center py-5">
+            <h4 class="text-muted">Nu ai completat niciun chestionar încă.</h4>
+            <p class="text-muted">Începe să testezi cunoștințele acum!</p>
+            <a href="{% url 'quiz' %}" class="btn btn-porsche btn-lg">Începe primul chestionar</a>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

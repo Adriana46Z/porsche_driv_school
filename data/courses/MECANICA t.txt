@@ -1,0 +1,169 @@
+Organizarea generală a automobilelor:
+
+	- motor;
+
+	- transmisie;
+
+	- sistem de conducere (direcţia);
+
+	- sistem de susţinere (suspensia) şi propulsie;
+
+	- caroseria;
+
+	- instalaţia electrică;
+
+	- instalaţia de frânare;
+
+	- instalaţii auxiliare (propulsor cu jet, cabestan).
+
+Definiţia M.A.I. – maşină termică de forţă care transformă căldura.
+
+Mecanismul motor:
+
+	- constituie cea mai importantă parte a M.A.I. şi are rolul de a transforma mişcarea de translaţie a pistoanelor, rezultată în urma arderii amestecului carburant în 
+
+	  camera de ardere, în mişcare de rotaţie a arborelui cotit.
+
+Compunere
+
+- organe fixe: chiulasa, garnitura de chiulasă, cilindri (4),(6), blocul motor, carterul superior, carterul inferior;
+- organe mobile: pistonul, segmenţii, bolţul, biela, arbore cotit, volanta;
+
+Prezenţa calaminei pe suprafaţa bujiilor şi fumul albăstrui al eşapamentului indică faptul că mecanismul motor (grup piston-cilindru) este uzat.
+
+Un eşapament defect trebuie reparat necondiţionat pentru că produce un zgomot prea mare;
+
+Criteriul de alegere a benzinei pentru motoarele cu aprindere prin scânteie îl constituie cifra octanică (CO);
+
+Factorii care fac ca motorul Diesel al unui autoturism să emită fum excesiv sunt defecţiunile la instalaţia de injecţie;
+
+Cauza care determină un consum de combustibil peste limita normală la M.A.S. poate fi dereglarea carburaţiei;
+
+Fumul de culoare neagră emis de eşapament indică un consum exagerat de combustibil;
+
+Catalizatorul are rolul de a asigura depoluarea atmosferică prin arderea completă a gazelor de evacuare şi de a reduce cantitatea de noxe emise în atmosferă; 
+dacă după întreruperea contactului electric, motorul continuă să funcţioneze, fenomenul se numeşte autoaprindere;
+
+Instalaţia de ungere:
+
+Rol: realizarea unei pelicule de ulei între suprafeţele aflate în mişcare relativă cu scopul de a micşora uzura; protejarea pieselor împotriva coroziunii; 
+
+Nivelul corect al uleiului din baia de ulei trebuie să fie între reperele MIN-MAX însemnate pe joja de ulei;
+
+Printre calităţile uleiului de motor se enumără punctul de congelare şi vâscozitatea;
+
+Schimbarea uleiului şi a elementului filtrant de ulei se face conform periodicităţii stabilite de constructor;
+
+Pentru întreţinerea sistemului de ungere, trebuie să efectuaţi verificarea şi completarea nivelului uleiului din baie, înlocuirea uleiului după expirarea termenului de utilizare;
+
+Cauzele ce pot determina creşterea nivelului de ulei în baia de ungere sunt pătrunderea apei sau a combustibilului în baia de ulei;
+
+Fumul de culoare albastră emis de eşapament indică un consum exagerat de ulei.
+
+Instalaţia de răcire:
+
+	rol: să asigure o temperatură optimă de funcţionare a motorului prin evacuarea unei cantităţi de căldură; să asigure răcirea suplimentară a uleiului din instalaţia de ungere; 
+să asigure încălzirea aerului necesar instalaţiei de încălzire şi ventilaţie.
+
+Cea mai frecventă defecţiune a instalaţiei de răcire a motorului este slăbirea sau ruperea curelei de antrenare a ventilatorului şi a pompei de apă;
+
+Temperatura lichidului de răcire care asigură performanţa maximă şi uzura minimă a motorului este cuprinsă în intervalul 90-95 grade C;
+
+Circulaţia frecventă cu termostatul defect şi, implicit, cu o temperatură a lichidului de răcire sub 60 grade C conduce la creşterea consumului de combustibil;
+
+Creşterea excesivă a regimului termic de funcţionare a motorului poate fi cauzată de ruperea curelei de antrenare a pompei de apă sau defectarea termostatului;
+
+Aprinderea luminii martor de la bord, care semnalizează funcţionarea generatorului de curent, poate indica ruperea curelei de antrenare a pompei de apă, a ventilatorului şi a 
+
+alternatorului;
+
+La utilizarea soluţiei antigel se va evita contactul cu aceasta, deoarece este toxică;
+
+După cel mult 3 ani soluţia antigel va fi complet înlocuită, chiar dacă densitatea acesteia corespunde cerinţelor;
+
+Transmisia autovehiculelor:
+
+Organizare generală: ambreiaj, cutie de viteză, reductor distribuitor (cutie de distribuţie), transmisie cardanică, punte motrică, roţile motoare; 
+ambreiajul are rolul de a realiza cuplarea progresivă şi decuplarea motorului de restul transmisiei;
+Aşteptarea la semafor având pedala de ambreiaj apăsată determină frecvent defectarea ambreiajului;
+Cutia de viteze asigură transmiterea puterii la roţi, permite mersul înapoi, fără a inversa sensul de rotaţie a motorului, permite staţionarea cu motorul în funcţiune.
+
+Mecanismul de direcţie:
+
+	rol - înclinarea roţilor de direcţie ale automobilului faţă de axa sa longitudinală de simetrie 
+
+La apariţia defecţiunilor tehnice ale mecanismului de direcţie se apelează numai la atelierele specializate, care au personal calificat;
+
+Uzura prematură a pneurilor din faţă se datorează, în primul rând dereglării geometriei direcţiei;
+
+Transmiterea unor vibraţii la volan poate fi cauzată de pneurile insuficient umflate sau echilibrate;
+
+Dacă efortul depus pentru acţionarea volanului este mai mare decât în mod obişnuit, trebuie să verificăm, în primul rând presiunea în pneurile punţii din faţă.
+
+Sistemul de rulare:
+
+	rol: serveşte ca element de susţinere prin care se transmit sarcinile verticale de la autovehicul la drum, transmite la sol forţa de tracţiune şi frânare în timpul deplasării, 
+asigură menţinerea autovehiculului pe traiectoria impusă datorită aderenţei cu solul, contribuie la realizarea suspensiei datorită elasticităţii pneului;
+
+Cuvântul TUBELESS imprimat pe o anvelopă semnifică faptul că aceasta poate funcţiona fără cameră de aer;
+
+Uzura pneurilor creşte foarte mult la demarări şi frânări intense, consecinţe ale unui stil agresiv de conducere;
+
+Factorul care influenţează cel mai mult durata de serviciu a pneurilor este presiunea;
+
+Presiunea din pneuri se măsoară înaintea plecării în cursă, când pneurile sunt reci;
+
+Încălzirea excesivă a pneurilor se poate datora supraîncărcării autovehiculului sau presiunii insuficiente în pneuri;
+
+Principala cauză a exploziei pneului în timpul mersului este umflarea exagerată;
+
+Blocarea unei roţi în timpul mersului poate fi cauzată de griparea rulmenţilor;
+
+După o pană de cauciuc şi montarea roţii de rezervă, trebuie avut în vedere să nu se circule cu roata de rezervă mai mult decât este necesar;
+
+Sistemul de frânare:
+
+	rol: serveşte la micşorarea vitezei autovehiculului până la o valoare dorită sau la oprirea lui, imobilizarea autovehiculului în pantă, pornirea autovehiculului din pantă, 
+oprirea motorului prin frâna suplimentară de încetinire;
+
+Frâna de serviciu a autovehiculului trebuie să aibă capacitatea de a asigura încetinirea şi oprirea rapide, sigure şi eficace a autovehiculului, 
+
+Indiferent de gradul de încărcare şi de înclinarea drumului;
+
+Echipamentul de frânare nu este obligatoriu la remorcile uşoare (cu masa totală maximă autorizată mai mică de 750 kg.);
+
+Neeliberarea completă a frânei de staţionare determină un consum suplimentar de carburant, încălzirea excesivă a butucilor roţilor din spate;
+
+Cursa liberă a pedalei de frână, mai mică decât cea obişnuită, indică un joc insuficient între saboţi şi tamburi;
+
+Efortul mai mare depus la acţionarea pedalei de frână indică griparea cilindrilor receptori şi a pistonaşelor;
+
+Atunci când, pe roţile unei osii, eficienţa frânării este mult diferită, vehiculul poate derapa lateral;
+
+Pentru folosirea în condiţii optime a capacităţii de frânare a motorului, atunci când coborâţi o pantă lungă şi înclinată presupune să schimbaţi la timp într-o treaptă inferioară;
+
+Defecţiunile la sistemul de frânare se repară într-un atelier specializat;
+
+Un criteriu de apreciere a eficacităţii frânelor este spaţiul de frânare.
+
+Sistemul electric:
+
+	rol: asigură energia electrică necesară funcţionării întregului echipament electric, asigură iluminatul drumului, cabinei, caroseriei şi scalele aparatelor de măsură şi 
+control pe timp de noapte şi ceaţă;
+
+Instalaţiile de semnalizare şi iluminare ale unui autovehicul trebuie să corespundă condiţiilor tehnice impuse şi să fie omologate de către autoritatea competentă;
+
+Bateria de acumulatori asigură alimentarea consumatorilor cu energie electrică;
+
+Faptul că bateria de acumulatori este descărcată poate fi indicat de următoerele: la aprinderea farurilor, 
+
+Intensitatea luminoasă a acestora scade progresiv; acţionând claxonul, acesta emite un sunet slab, întrerupt;
+
+Diverse:
+
+	- perna de aer (airbag-ul) asigură protecţia suplimentară a persoanelor în cazul unui impact puternic al autovehiculului.
+
+
+	- sistemul de frânare A.B.S. este un sistem pentru vehiculele motorizate, ce previne blocarea roţilor în timpul frânării;
+
+	- simbolurile EURO I, EURO II, EURO III, EURO IV şi EURO V reprezintă standardele de poluare din Uniunea Europeană.

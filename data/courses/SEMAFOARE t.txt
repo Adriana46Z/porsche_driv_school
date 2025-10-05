@@ -1,0 +1,72 @@
+SEMAFOARE PENTRU DIRIJAREA CIRCULAŢIEI
+
+Semafoare pot fi:
+
+	- cu un corp de iluminat, cu lumină galbenă intermitentă de avertizare;
+
+	- cu două corpuri de iluminat, pentru pietoni şi biciclişti;
+
+	- cu trei corpuri de iluminat, pentru vehicule;
+
+	- cu patru sau mai multe corpuri de iluminat, pentru tramvaie.
+
+Semafor de avertizare
+
+Semaforul de avertizare se instalează la ieşirea din intersecţie şi este constituit dintr-un corp de iluminat cu lumina galbenă intermitentă. Permite trecerea cu respectarea indicatoarelor si a regulilor aplicabile in acel loc. Obliga la reducerea vitezei. Acesta poate avea în câmpul său imaginea unui pieton în mişcare, de culoare galbenă pe fond negru, caz în care atenționează conducătorul auto că urmează o trecere de pietoni.
+
+Semafor special pentru tramvaie
+
+Libera trecere este dată de combinaţia luminoasă a lămpii inferioare cu una din cele trei lămpi situate la partea superioară pentru indicarea direcţiei. Interzicerea trecerii este dată de iluminarea concomitentă a celor trei lumini din partea superioară.
+
+Semnalul de culoare verde intermitent
+
+Semnalul de culoare verde intermitent cu sageata pe fond negru atasata unui semafor obliga la reducerea vitezei, deplasarea numai pe directia respectiva si cedarea trecerii.
+
+Elemente de control informațional al traficului
+
+Semnalul verde
+
+	- permite trecerea;
+
+	- când virăm dreapta, pietonii au şi ei verde deci le acordăm prioritate;
+
+	- dacă semaforul este unul singur pentru toate direcţiile (stânga, înainte, dreapta), atunci când virăm stânga, de obicei trebuie să acordăm prioritate vehiculelor care vin din 
+sens opus şi pietonilor;
+
+	- este interzisă intrarea într-o intersecţie, chiar dacă semaforul sau indicatorul permite, dacă din cauza aglomeraţiei, conducătorul riscă să rămână imobilizat, 
+stânjenind traficul;
+
+	- lumina intermitentă sub forma unei săgeţi verzi către dreapta permite trecerea numai în dreapta, oricare ar fi în acel moment semnalul semaforului; în această situaţie 
+conducătorii auto sunt obligaţi să acorde prioritate pietonilor şi vehiculelor cu care se intersectează.
+
+Conducătorul care intră la culoarea verde a semaforului este obligat să respecte şi indicatoarele instalate în interiorul intersecţiei, cu excepţia indicatoarelor de prioritate.
+
+Semnalul roșu
+
+	- interzice trecerea;
+
+	- locul de oprire:
+
+- înaintea marcajului pentru oprire sau pentru trecerea pietonilor;
+- înainte de marginea părţii carosabile când semaforul este deasupra sau de cealaltă parte a intersecţiei.
+
+Semnalul galben seminfică oprire;
+
+Semnalul galben concomitent cu roşu semnifică oprire;
+
+Semnalul galben intermitent semnifică trecere cu reducerea vitezei şi respectarea indicatoarelor şi a regulilor de circulaţie aplicabile în acel loc.
+
+La semafoarele pentru tramvaie:
+
+	- liberă trecere este dată de combinaţia luminoasă a lămpii inferioare cu una din cele trei lămpi situate la partea superioară pentru indicarea direcţiei;
+
+	- interzicere a trecerii este dată de iluminarea concomitentă a celor trei lumini din partea superioară.
+
+La semafoarele pentru benzi cu circulaţie reversibilă:
+
+	- semnalul roşu = două bare înclinate şi încrucişate semnifică accesul interzis pe bandă;
+
+	- semnalul verde = săgeată cu vârful în jos, permite intrarea pe bandă;
+
+	- diagonală în jos, spre dreapta sau stânga de culoare galbenă sau albă semnifică faptul că banda este pe punctul de a fi închisă şi conducătorii auto sunt obligaţi să se 
+deplaseze pe benzile indicate de săgeţi.

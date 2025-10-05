@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="card">
+    <div class="card-header bg-warning text-dark">
+        <div class="d-flex justify-content-between align-items-center">
+            <h2>😄 Memes Porsche</h2>
+            <a href="{% url 'home' %}" class="btn btn-outline-dark">← Înapoi acasă</a>
+        </div>
+    </div>
+    <div class="card-body">
+        {% if memes %}
+        <div class="row">
+            {% for meme in memes %}
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">{{ meme.title }}</h5>
+                        <img src="{{ meme.image.url }}" alt="{{ meme.title }}" 
+                             class="meme-img img-fluid rounded" 
+                             style="max-height: 300px; object-fit: contain;">
+                    </div>
+                    <div class="card-footer text-muted text-center">
+                        <small>Adăugat: {{ meme.created_at|date:"d.m.Y" }}</small>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="text-center py-5">
+            <h4 class="text-muted">Momentan nu sunt memes disponibile.</h4>
+            <p class="text-muted">Vom adăuga în curând memes noi!</p>
+            <a href="{% url 'home' %}" class="btn btn-warning">Înapoi acasă</a>
+        </div>
+        {% endif %}
+    </div>
+</div>
+
+<style>
+.meme-img {
+    transition: transform 0.3s ease;
+    border: 3px solid #ffc107;
+}
+.meme-img:hover {
+    transform: scale(1.05);
+}
+</style>
+{% endblock %}
