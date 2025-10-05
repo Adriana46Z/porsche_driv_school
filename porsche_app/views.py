@@ -111,7 +111,8 @@ def quiz_view(request):
     return render(request, 'quiz.html', {
         'form': form,
         'questions': questions,
-        'total_questions': len(questions)
+        'total_questions': len(questions),
+        'message': "200OK"
     })
 
 
