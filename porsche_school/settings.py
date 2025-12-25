@@ -1,6 +1,8 @@
 import os
 from pathlib import Path
 
+INSTRUCTOR_EMAIL_DOMAIN = "@instructor.com"
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -96,4 +98,5 @@ LOGIN_REDIRECT_URL = 'home'
 LOGOUT_REDIRECT_URL = 'login'
 
 # Login/Logout settings
-LOGIN_URL = 'login'           # Schimbă de la 'accounts/login' la 'login'
+LOGIN_URL = 'login'
+

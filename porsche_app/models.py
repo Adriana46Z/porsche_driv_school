@@ -63,5 +63,5 @@ class QuizAttempt(models.Model):
     def __str__(self):
         return f"{self.user.username} - {self.score}/{self.total_questions} ({self.category})"
 
-    def has_pdf(self):  # ✅ ADAUGĂ METODA ASTA
+    def has_pdf(self):
         return bool(self.pdf_file)

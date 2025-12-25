@@ -1,11 +1,8 @@
-
 În cazul implicării într-un accident, puteţi părăsi locul acestuia fără încuviinţarea poliţiei, dacă a rezultat vătămarea integrităţii corporale a unei persoane?
-
-A. da, dacă accidentul nu s-a produs din vina dvs.;
-
-B. da, în cazul în care autoturismul dvs. nu a fost avariat;
-
-#C. nu;
+da, dacă accidentul nu s-a produs din vina dvs.;
+da, în cazul în care autoturismul dvs. nu a fost avariat;
+doar dacă nu e grav
+nu;
 
 
 

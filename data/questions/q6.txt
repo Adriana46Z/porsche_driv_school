@@ -1,11 +1,8 @@
-
 În care dintre situaţii sunteţi obligat să reduceţi viteza?
-
-A. la trecerea la nivel cu calea ferată curentă cu bariere;
-
-B. la trecerea la nivel cu calea ferată curentă fără bariere;
-
-# C. la trecerea la nivel cu calea ferată curentă industrială;
+la trecerea la nivel cu calea ferată curentă cu bariere;
+la trecerea la nivel cu calea ferată curentă fără bariere;
+pe vreme nefavorabilă
+la trecerea la nivel cu calea ferată curentă industrială;
 
 
 

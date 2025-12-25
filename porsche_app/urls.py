@@ -1,4 +1,5 @@
 from django.urls import path
+from django.contrib import admin  # ✅ IMPORTĂ ADMIN DIN DJANGO
 from django.contrib.auth import views as auth_views
 from . import views
 
@@ -11,11 +12,8 @@ urlpatterns = [
     path('quiz/', views.quiz_view, name='quiz'),
     path('quiz/history/', views.quiz_history, name='quiz_history'),
     path('profile/', views.profile_view, name='profile'),
-
-    # ADAUGĂ ASTA pentru a redirecționa /accounts/login/ către /login/
     path('accounts/login/', views.login_view, name='login_redirect'),
-
     path('memes/', views.memes_view, name='memes'),
-
     path('course/<int:course_id>/pdf/', views.view_pdf, name='view_pdf'),
+    path('admin/', admin.site.urls),
 ]

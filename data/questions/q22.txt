@@ -1,10 +1,8 @@
 Nu poţi circula cu autovehiculul pe drumurile publice atunci când:
-
-A. lipseşte simbolul „RO”;
-
-#B. autovehiculul prezintă scurgeri de carburanţi sau de lubrifianţi;
-
-C. nu ai practică de conducere de cel puţin un an;
+lipseşte simbolul „RO”;
+ești începător
+nu ai practică de conducere de cel puţin un an;
+autovehiculul prezintă scurgeri de carburanţi sau de lubrifianţi;
 
 
 

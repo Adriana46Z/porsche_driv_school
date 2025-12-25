@@ -1,12 +1,8 @@
-
-
 Este permisă depăşirea când din sens opus se apropie un alt autovehicul?
-
-A. da, dacă cel care se apropie din sens opus a redus viteza de deplasare pentru a facilita depăşirea;
-
-#B. nu, dacă cel care se apropie din sens opus este obligat să efectueze manevre de evitare a coliziunii;
-
-C. da, dacă spaţiul lateral este suficient;
+da, dacă cel care se apropie din sens opus a redus viteza de deplasare pentru a facilita depăşirea;
+alt răspuns
+da, dacă spaţiul lateral este suficient;
+nu, dacă cel care se apropie din sens opus este obligat să efectueze manevre de evitare a coliziunii;
 
 
 

@@ -1,0 +1,142 @@
+{% extends "admin/base.html" %}
+
+{% block title %}{{ title }} | Porsche School{% endblock %}
+
+{% block extrastyle %}
+<style>
+:root {
+    --porsche-red: #dc0032;
+    --porsche-dark-red: #b30028;
+    --porsche-black: #000000;
+    --porsche-gray: #2d2d2d;
+}
+
+/* Header styling - Porsche colors */
+#header {
+    background: var(--porsche-black) !important;
+    border-bottom: 3px solid var(--porsche-red) !important;
+}
+
+#branding h1 {
+    color: white !important;
+    font-weight: 800 !important;
+    font-size: 1.5rem !important;
+}
+
+#branding h1 a:link, #branding h1 a:visited {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+#branding h1 a:hover {
+    color: var(--porsche-red) !important;
+}
+
+/* Module headers */
+.module h2, .module caption, .inline-group h2 {
+    background: linear-gradient(45deg, var(--porsche-black), var(--porsche-gray)) !important;
+    color: white !important;
+    font-weight: 600 !important;
+}
+
+/* Buttons - Porsche red */
+.button, input[type=submit], input[type=button], .submit-row input, a.button {
+    background: var(--porsche-red) !important;
+    border: none !important;
+    border-radius: 4px !important;
+    color: white !important;
+    font-weight: 500 !important;
+}
+
+.button:hover, input[type=submit]:hover, input[type=button]:hover {
+    background: var(--porsche-dark-red) !important;
+}
+
+.object-tools a:link, .object-tools a:visited {
+    background: var(--porsche-red) !important;
+    border-radius: 4px !important;
+}
+
+.object-tools a:hover {
+    background: var(--porsche-dark-red) !important;
+}
+
+/* Sidebar */
+#user-tools {
+    color: white !important;
+}
+
+#user-tools a:link, #user-tools a:visited {
+    color: #ff6b6b !important;
+}
+
+#user-tools a:hover {
+    color: white !important;
+}
+
+/* Instructor warning banner */
+.instructor-warning {
+    background: linear-gradient(45deg, #dc0032, #b30028);
+    color: white;
+    padding: 15px;
+    margin: 0 0 20px 0;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 2px 10px rgba(220, 0, 50, 0.3);
+}
+
+/* Hide breadcrumbs for instructors */
+.breadcrumbs {
+    display: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .instructor-warning {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+
+    #branding h1 {
+        font-size: 1.2rem !important;
+    }
+}
+</style>
+{% endblock %}
+
+{% block branding %}
+<h1 id="site-name">
+    <a href="{% url 'admin:index' %}">
+        🏎️ PORSCHE SCHOOL - PANOU INSTRUCTOR
+    </a>
+</h1>
+{% endblock %}
+
+{% block nav-global %}
+{% endblock %}
+
+{% block content %}
+<!-- Warning banner for instructors -->
+{% if user.email and '@instructor.com' in user.email and not user.is_superuser %}
+<div class="instructor-warning">
+    ⚠️ ATENȚIE INSTRUCTOR: Aveți acces limitat la gestionarea conținutului educațional.
+    <br>
+    <small>Puteți edita doar <strong>Cursuri</strong> și <strong>Întrebări teoretice</strong>.</small>
+</div>
+{% endif %}
+
+{{ block.super }}
+{% endblock %}
+
+{% block footer %}
+<div id="footer" style="padding: 15px; border-top: 2px solid var(--porsche-red); margin-top: 30px; background: var(--porsche-black); color: white;">
+    <div style="text-align: center; font-size: 0.9rem;">
+        <strong>Porsche School Instructor Portal</strong> |
+        Acces limitat la conținut educațional |
+        <a href="{% url 'home' %}" style="color: #ff6b6b; font-weight: bold; margin-left: 10px;">
+            ← Înapoi la platforma principală
+        </a>
+    </div>
+</div>
+{% endblock %}
