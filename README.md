@@ -11,12 +11,21 @@ The project I created, Porsche Driving School, is a modern e-learning platform d
 * [Tech Stack](#tech-stack)
 * [Database Architecture](#database-architecture)
 * [Installation & Setup](#installation--setup)
-* [Team](#team)
+* [Author](#team)
 
 ---
 
 ## About the Project
-The Porsche Driving School platform was developed to bridge the gap between traditional driving instruction and modern digital management. It offers a sophisticated environment where students can book sessions, track their progress, and interact with top-tier instructors—all within an interface that reflects the sleek aesthetics of the Porsche brand.
+
+The platform aims to be a modern, interactive, and accessible educational tool that simplifies the learning process. The system provides a complete digital experience, bringing together in one place:
+
+Road legislation courses, clearly explained and structured by topic.
+
+Driving quizzes similar to official ones, featuring instant feedback and automated evaluation.
+
+An automotive-themed humor section, intended to offer students a moment of relaxation during well-deserved breaks.
+
+Through a personal account, users can track their own progress, download study materials in PDF format, and constantly test their knowledge in a secure, intuitive, and friendly environment. The ultimate goal of the platform is to increase the pass rate for the theoretical driving exam by digitalizing the learning process and transforming it into an enjoyable, efficient, and flexible experience.
 
 ---
 
