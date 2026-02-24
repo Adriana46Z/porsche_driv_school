@@ -89,7 +89,7 @@ Through a personal account, users can track their own progress, download study m
 | Component | Technology |
 | :--- | :--- |
 | **Frontend** | HTML5, CSS3, JavaScript, Bootstrap 5 |
-| **Backend** | PHP |
+| **Backend** | Python, Django framework |
 | **Database** | MySQL |
 | **Design** | Porsche Brand Identity Elements |
 
