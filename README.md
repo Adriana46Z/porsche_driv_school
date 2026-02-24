@@ -1,10 +1,6 @@
 # Porsche Driving School Management System
 
-[![GitHub license](https://img.shields.io/github/license/Adriana46Z/porsche_driv_school)](https://github.com/Adriana46Z/porsche_driv_school/blob/main/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/Adriana46Z/porsche_driv_school)](https://github.com/Adriana46Z/porsche_driv_school/stargazers)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Adriana46Z/porsche_driv_school/pulls)
-
-A premium, web-based management platform designed for driving schools that prioritize performance and luxury, inspired by the Porsche brand excellence. This application streamlines the scheduling process, student tracking, and administrative tasks.
+The project I created, Porsche Driving School, is a modern e-learning platform designed to offer a flexible and efficient learning experience. Its goal is to provide students with the best online theoretical preparation for obtaining their driver's license.
 
 ---
 
